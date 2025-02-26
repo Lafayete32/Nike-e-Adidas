@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35130.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nike e Adidas", "Nike e Adidas\Nike e Adidas.csproj", "{4876C3C8-5257-4FA6-B5A8-53B2D7031FEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4876C3C8-5257-4FA6-B5A8-53B2D7031FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4876C3C8-5257-4FA6-B5A8-53B2D7031FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4876C3C8-5257-4FA6-B5A8-53B2D7031FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4876C3C8-5257-4FA6-B5A8-53B2D7031FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {143FF7DD-0D02-44CD-8FF2-671B603F81B8}
+	EndGlobalSection
+EndGlobal

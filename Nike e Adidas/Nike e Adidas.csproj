@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4876C3C8-5257-4FA6-B5A8-53B2D7031FEA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Nike_e_Adidas</RootNamespace>
+    <AssemblyName>Nike e Adidas</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nike.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adidas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adidas1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camisas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camisas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nike-ardanın-amk %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nike-sneakers.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adidas.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adidas bio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camisaadidas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sem título.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chuteirank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adidas chuteira.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bioadidas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BolasAdidas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolasnike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jogadoresnike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jogadores Adidas.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Times da Adidas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Times da Nike.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrcode_129377940_b4436252a9fec4a9656f8938aed80b8c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrcode_129378345_df2f66f98fb57978ab12a2824cbaf360.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrcode_129378619_6f4f6f7c0264a85ea820b4629f39f6ad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrcode_129378849_0e668888d2072425bd586e1c3b3ac3a3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrcode_129379014_4c4d17739d09872e1b3c88e4bb528dbd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrcode_129379192_9eca554c91eef12f698e1204ed1dee3e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrcode_129379418_037741ad763a4b89201571a609e70337.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrcode_129379566_97d0ca5d66a8d921d97a1e479cfbab26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrcode_129379857_e312ff525857df2d8ee4ecd250bb4fc3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrcode_129380039_4755f361d865b88bc82e8c27fe79d025.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrcode_129540632_0522ed7e886f9da4df00d3327af05c0b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrcode_129540854_56655294de9e356c6ef2305e587aeb67.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qrcode_129541103_990c16df786ed11cd1b6a6ab2a9f2ea3.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
